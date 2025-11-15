@@ -1,0 +1,95 @@
+/* Basic reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: lightblue;
+    padding: 20px; /* space inside the header */
+    text-align: center;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style-type: none; /* remove bullets */
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Main content */
+.content {
+    padding: 20px; /* space inside the content area */
+    margin: 20px;  /* space outside the content area */
+    background-color: #f2f2f2;
+}
+
+/* Box Model example */
+.box {
+    border: 2px solid black; /* border around the box */
+    padding: 15px;            /* space inside the box */
+    margin: 10px 0;           /* space outside the box */
+    background-color: #fff;
+}
+
+/* Headings */
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    background-color: lightgreen;
+    border: 1px solid green;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
